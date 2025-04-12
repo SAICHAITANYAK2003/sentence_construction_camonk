@@ -9,8 +9,8 @@
 
   body {
     @apply font-sans antialiased bg-background text-foreground;
-    font-family: 'Inter', sans-serif;
-    background-color: #111827;
+    font-family: "Inter", sans-serif;
+    background-color: #f3f3f3;
     color: #111827;
   }
 }
@@ -47,24 +47,24 @@
 }
 
 .timer-segment.active {
-  background-color: #F59E0B;
+  background-color: #f59e0b;
 }
 
 .timer-segment.inactive {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
 }
 
 .blank {
   display: inline-block;
   min-width: 100px;
-  border-bottom: 2px solid #9CA3AF;
+  border-bottom: 2px solid #9ca3af;
   margin: 0 4px;
   padding: 2px 8px;
   text-align: center;
 }
 
 .blank.filled {
-  background-color: #F3F4F6;
+  background-color: #f3f4f6;
   border-radius: 4px;
   border-bottom: none;
   cursor: pointer;
@@ -78,8 +78,8 @@
 }
 
 .word-option {
-  background-color: #F3F4F6;
-  border: 1px solid #E5E7EB;
+  background-color: #f3f4f6;
+  border: 1px solid #e5e7eb;
   border-radius: 4px;
   padding: 0.5rem 1rem;
   cursor: pointer;
@@ -87,7 +87,7 @@
 }
 
 .word-option:hover {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
 }
 
 .word-option.selected {
@@ -96,7 +96,7 @@
 }
 
 .button {
-  background-color: #4F46E5;
+  background-color: #4f46e5;
   color: white;
   border-radius: 4px;
   padding: 0.75rem 1.5rem;
@@ -108,22 +108,22 @@
 }
 
 .button:hover {
-  background-color: #4338CA;
+  background-color: #4338ca;
 }
 
 .button:disabled {
-  background-color: #9CA3AF;
+  background-color: #9ca3af;
   cursor: not-allowed;
 }
 
 .button.secondary {
   background-color: white;
   color: #111827;
-  border: 1px solid #D1D5DB;
+  border: 1px solid #d1d5db;
 }
 
 .button.secondary:hover {
-  background-color: #F9FAFB;
+  background-color: #f9fafb;
 }
 
 .score-circle {
@@ -137,34 +137,34 @@
 }
 
 .result-section {
-  background-color: #F3F4F6;
+  background-color: #f3f4f6;
   border-radius: 0.5rem;
   padding: 1rem;
   margin-bottom: 1rem;
 }
 
 .result-correct {
-  color: #22C55E;
-  background-color: #DCFCE7;
+  color: #22c55e;
+  background-color: #dcfce7;
   padding: 2px 8px;
   border-radius: 4px;
   font-weight: 500;
 }
 
 .result-incorrect {
-  color: #EF4444;
-  background-color: #FEE2E2;
+  color: #ef4444;
+  background-color: #fee2e2;
   padding: 2px 8px;
   border-radius: 4px;
   font-weight: 500;
 }
 
 .word-correct {
-  background-color: #DCFCE7;
-  border-color: #22C55E;
+  background-color: #dcfce7;
+  border-color: #22c55e;
 }
 
 .word-incorrect {
-  background-color: #FEE2E2;
-  border-color: #EF4444;
+  background-color: #fee2e2;
+  border-color: #ef4444;
 }
